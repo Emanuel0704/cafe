@@ -1,0 +1,65 @@
+body {
+    background-image: url('cafe-brasileiro-e-o-melhor-cafe-do-mundo-1.jpg');
+    background-size: cover;
+    font-family: 'Courier New', monospace; 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1, h2, p {
+    font-family: 'Courier New', monospace;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color:blanchedalmond;
+}
+
+.quadro {
+    border: 2px solid #333; 
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.quadro img {
+    max-width: 100%; 
+}
+
+.quadro p {
+    font-style: italic;
+    margin-top: 5px;
+}
